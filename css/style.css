@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    background: #adadad;
+    border: 5px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    height: 500px;
+}
+
+.right, .left, .bottom {
+    border: 5px #007acc solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color: #007acc;
+    font-weight: bold;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom {
+    position: absolute;
+    bottom:0;
+    left: 45%;
+}
